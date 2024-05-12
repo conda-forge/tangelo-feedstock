@@ -19,7 +19,7 @@ build:
     - tangelo-passwd = tangelo.__main__:tangelo_passwd
     - tangelo-pkgdata = tangelo.__main__:tangelo_pkgdata
 
-  number: 1000
+  number: 1001
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
